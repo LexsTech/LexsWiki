@@ -18,6 +18,12 @@ extra_css:
 extra_javascript:
   - javascripts/green-audio-player.js
   - javascripts/player.js
+
+#Google
+extra:
+  analytics:
+    provider: google
+    property: G-SRXV57H6KM
   
 # Configuration
 theme:
