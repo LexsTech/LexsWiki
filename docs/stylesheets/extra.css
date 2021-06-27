@@ -1,0 +1,11 @@
+p {
+    text-align: justify;
+}
+
+.md-typeset {
+     text-align: justify;
+}
+
+.md-sidebar--primary .md-nav_title {
+    display: none;
+}

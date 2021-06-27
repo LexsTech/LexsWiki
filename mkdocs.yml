@@ -1,0 +1,54 @@
+# Project information
+site_name: Lexs.Wiki
+site_url: https://github.com/LexsTech/LexsWiki
+site_author: Orenda
+site_description: Сайт за съхранение и развиване на архива на Оренда
+  
+# Repository
+repo_name: LexsTech/LexsWiki
+repo_url: https://github.com/LexsTech/LexsWiki
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Orenda
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/green-audio-player.css
+extra_javascript:
+  - javascripts/green-audio-player.js
+  - javascripts/player.js
+  
+# Configuration
+theme:
+  name: material
+  custom_dir: оverrides
+  
+  #Theme modes - color palette toggle
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle: 
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+        
+  language: bg
+  
+  features:
+    - navigation.tabs
+    - navigation.top
+    
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  
+  # Extensions
+markdown_extensions:
+  - admonition
+
