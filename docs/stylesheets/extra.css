@@ -9,3 +9,9 @@ p {
 .md-sidebar--primary .md-nav_title {
     display: none;
 }
+
+a img {
+    height: 3rem !important;
+    width: 3rem !important;
+}
+
