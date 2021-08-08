@@ -1,0 +1,3908 @@
+
+<!doctype html>
+<html lang="bg" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Сайт за съхранение и развиване на архива на Оренда">
+      
+      
+      
+        <meta name="author" content="Orenda">
+      
+      
+        <link rel="canonical" href="https://github.com/LexsTech/LexsWiki/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2054/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.2">
+    
+    
+      
+        <title>**Наследяване - понятие и видове. Наследство. Откриване на наследство. Приемане и отказ от наследство. Отговорност на наследниците. Отношения между сънаследници.** - Lexs.Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1118c9be.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ba0d045b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/green-audio-player.css">
+    
+    
+      
+
+  
+
+
+  
+
+  
+
+
+  <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-SRXV57H6KM"),document.addEventListener("DOMContentLoaded",function(){"undefined"!=typeof location$&&location$.subscribe(function(t){gtag("config","G-SRXV57H6KM",{page_path:t.pathname})})})</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SRXV57H6KM"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#-" class="md-skip">
+          Към съдържанието
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Горен колонтитул">
+    <a href="../.." title="Lexs.Wiki" class="md-header__button md-logo" aria-label="Lexs.Wiki" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Lexs.Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              **Наследяване - понятие и видове. Наследство. Откриване на наследство. Приемане и отказ от наследство. Отговорност на наследниците. Отношения между сънаследници.**
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Търси" placeholder="Търси" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Изчисти" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/LexsTech/LexsWiki/" title="Към хранилището" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    LexsTech/LexsWiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Табове" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Добре дошли в Lexs.Wiki!
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2001/" class="md-tabs__link md-tabs__link--active">
+        Гражданскоправни науки
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%94%D1%80%D1%83%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B8/" class="md-tabs__link">
+        Наказателноправни науки
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2001/" class="md-tabs__link">
+        Публичноправни науки
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Lexs.Wiki" class="md-nav__button md-logo" aria-label="Lexs.Wiki" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Lexs.Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/LexsTech/LexsWiki/" title="Към хранилището" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    LexsTech/LexsWiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Добре дошли в Lexs.Wiki!
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Гражданскоправни науки
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Гражданскоправни науки" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Гражданскоправни науки
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2001/" class="md-nav__link">
+        Тема 01
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2002/" class="md-nav__link">
+        Тема 02
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2003/" class="md-nav__link">
+        Тема 03
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2004/" class="md-nav__link">
+        Тема 04
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2005/" class="md-nav__link">
+        Тема 05
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2006/" class="md-nav__link">
+        Тема 06
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2007/" class="md-nav__link">
+        Тема 07
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2008/" class="md-nav__link">
+        Тема 08
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2009/" class="md-nav__link">
+        Тема 09
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2010/" class="md-nav__link">
+        Тема 10
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2011/" class="md-nav__link">
+        Тема 11
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2012/" class="md-nav__link">
+        Тема 12
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2013/" class="md-nav__link">
+        Тема 13
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2014/" class="md-nav__link">
+        Тема 14
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2015/" class="md-nav__link">
+        Тема 15
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2016/" class="md-nav__link">
+        Тема 16
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2017/" class="md-nav__link">
+        Тема 17
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2018/" class="md-nav__link">
+        Тема 18
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2019/" class="md-nav__link">
+        Тема 19
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2020/" class="md-nav__link">
+        Тема 20
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2021/" class="md-nav__link">
+        Тема 21
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2022/" class="md-nav__link">
+        Тема 22
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2023/" class="md-nav__link">
+        Тема 23
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2024/" class="md-nav__link">
+        Тема 24
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2025/" class="md-nav__link">
+        Тема 25
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2026/" class="md-nav__link">
+        Тема 26
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2027/" class="md-nav__link">
+        Тема 27
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2028/" class="md-nav__link">
+        **Прекратяване на облигационното отношение – основания и обща характеристика. Прихващане на насрещни задължения. Подновяване. Разваляне на договор. Други основания за погасяване на облигационните отношения.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2029/" class="md-nav__link">
+        **Промяна на субектите на облигационното отношение. Прехвърляне на вземане. Поемане на задължения - видове.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2030/" class="md-nav__link">
+        **Множество кредитори и длъжници. Разделност и солидарност. Видове солидарност. Неделимост.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2031/" class="md-nav__link">
+        **Защита на кредитора. Отговорност на длъжника с имуществото му. Упражняване правата на длъжника от кредитора. Отменителен иск.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2032/" class="md-nav__link">
+        **Лични обезпечения - обща характеристика. Поръчителство. Менителнично поръчителство. Банкова гаранция.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2033/" class="md-nav__link">
+        **Реални обезпечения - обща характеристика. Залог в гражданското право. Залог в търговското право. Особен залог. Договорна ипотека. Специализация. Сключване.Форма. Вписване. Законна ипотека. Вписване. Действие.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2034/" class="md-nav__link">
+        **Договори за възмездно придобиване на права. Продажба. Обща характеристика и видове. Задължения на страните. Отговорност на продавача при евикция и за недостатъци. Продажба на наследство. Търговска продажба - особености. Международна продажба на стоки. Договор за прехвърляне на имот срещу издръжка и гледане.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2035/" class="md-nav__link">
+        **Дарение. Отграничения. Видове. Сключване и форма на договора. Тежест при дарението. Отмяна на дарението. Спонсорство.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2036/" class="md-nav__link">
+        **Наемни отношения. Договор за наем. Пренаемане, прекратяване на наемното отношение. Лизинг - понятие и видове.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2037/" class="md-nav__link">
+        **Заем. Заем за послужване. Заем за потребление. Банков кредит.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2038/" class="md-nav__link">
+        **Влог. Правилен влог и неправилен влог. Банков влог. Влог в публичен склад**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2039/" class="md-nav__link">
+        **Изработка - обща характеристика, отграничения. Сключване и действие на договора за изработка. Особености на прекратяване на изработката.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2040/" class="md-nav__link">
+        **Мандатни отношения. Поръчка. Комисионен договор. Спедиционен договор.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2041/" class="md-nav__link">
+        **Договори за дружество. Договор за гражданско дружество. Дружество със съучастие Консорциум.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2042/" class="md-nav__link">
+        **Договор за превоз - обща характеристика и видове. Превозни документи. Задължения на страните. Отговорност.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2043/" class="md-nav__link">
+        **Застраховки – понятие и видове. Застрахователен риск и застрахователно покритие. Застрахователен договор. Застрахователно обезщетение.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2044/" class="md-nav__link">
+        **Имуществено застраховане. Застраховка „Гражданска отговорност" и професионални застраховки. Лични застраховки.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2045/" class="md-nav__link">
+        **Менителници и чекове. Понятие, видове менителнични ефекти. Издаване, прехвърляне, предявяване и приемане. Менителнични искове и възражения. Правоотношения по чека. Издаване и плащане. Регресни права.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2046/" class="md-nav__link">
+        **Непозволено увреждане - обща характеристика. Отграничения. Генералния деликт. Отговорност за лични виновни действия. Отговорност за вреди, причинени от другиго. Отговорност за вреди, причинени от вещи. Отговорност на държавата за вреди, причинени на граждани**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2047/" class="md-nav__link">
+        **Неоснователно обогатяване. Понятие и видове фактически състави. Понятието „основание" при неоснователното обогатяване. Връщане на даденото без основание, при отпаднало и несъществуващо основание. Правни последици от неоснователното обогатяване.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2048/" class="md-nav__link">
+        Тема 48
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2049/" class="md-nav__link">
+        **Права върху обекти на индустриалната собственост – търговски марки, промишлени образци и др. Защита. Договор за лицензия.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2050/" class="md-nav__link">
+        **Брак - обща характеристика. Сключване на брак. Лични и имуществени отношения между съпрузите. Имущественоправни режими. Брачен договор**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2051/" class="md-nav__link">
+        **Прекратяване на брака. Основания. Развод по взаимно съгласие и по исков ред. Унищожаване на брака. Брачен процес.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2052/" class="md-nav__link">
+        **Произход. Установяване и оспорване. Припознаване. Осиновяване - условия и производство. Действие и прекратяване на осиновяването.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2053/" class="md-nav__link">
+        **Родителски права и задължения. Съдържание. Закрила на детето. Представителство и попечителско съдействие. Ограничаване и лишаване от родителски права.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          **Наследяване - понятие и видове. Наследство. Откриване на наследство. Приемане и отказ от наследство. Отговорност на наследниците. Отношения между сънаследници.**
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        **Наследяване - понятие и видове. Наследство. Откриване на наследство. Приемане и отказ от наследство. Отговорност на наследниците. Отношения между сънаследници.**
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Съдържание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Понятие, принципи и развитие на българското наследствено право.
+  </a>
+  
+    <nav class="md-nav" aria-label="Понятие, принципи и развитие на българското наследствено право.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Правото на наследяване се характеризира като:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Принципи на наследственото право:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Наследяване. Наследство. Откриване на наследство.
+  </a>
+  
+    <nav class="md-nav" aria-label="Наследяване. Наследство. Откриване на наследство.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Общо и частно наследствено правоприемство.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Приемане и отказ от наследство
+  </a>
+  
+    <nav class="md-nav" aria-label="Приемане и отказ от наследство">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Приемане на наследството.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Правно действие на приемането (важи и за отказ от наследство).
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    Приемане на наследство по опис.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Отказ от наследство.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Наследствена трансмисия.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Съпоставка между право на заместване и наследствена трансмисия:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Отношения между сънаследниците – наследствена общност.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Отношения между сънаследниците и трети лица. Отговорност за задълженията и заветите.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2055/" class="md-nav__link">
+        **Наследяване по закон. Кръг на наследниците. Ред за наследяване. Основни правила за наследяване по закон.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2056/" class="md-nav__link">
+        **Наследяване по завещание. Завещание. Понятие. Видове.  Форма и съдържание на завещанието. Запазена и разполагаема част.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2057/" class="md-nav__link">
+        **Делба. Доброволна делба. Съдебна делба. Делба, извършена приживе.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2058/" class="md-nav__link">
+        **Основни начала на гражданския процес. Същност, видове, система. Диспозитивно, състезателно и служебно начало. Проявление на основните начала в различните производства и отделни техни фази.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2059/" class="md-nav__link">
+        **Страни в исковото производство – понятие и видове. Процесуална правоспособност и дееспособност. Процесуална легитимация. Процесуално представителство.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2060/" class="md-nav__link">
+        **Иск и право на иск. Същност на иска. Видове искове. Характеристика и съдържание на правото на иск. Процесуални предпоставки.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2061/" class="md-nav__link">
+        **Подведомственост – понятие. Подсъдност – понятие. Родова, местна и функционална подсъдност. Правно значение на подведомствеността и подсъдността.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2062/" class="md-nav__link">
+        **Предявяване на иска. Искова молба и проверка на редовността ù. Правни последици от предявяването на иска. Основание и петитум. Предмет на делото. Правна квалификация. Частичен иск.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2063/" class="md-nav__link">
+        **Разглеждане на делото. Съдебни заседания. Спиране и прекратяване на делото.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2064/" class="md-nav__link">
+        **Усложнения във връзка със страните. Другарство – понятие и видове. Особености на съдебното решение при наличието на другарство и последиците при обжалването му. Встъпване и привличане. Главно встъпване.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2065/" class="md-nav__link">
+        **Обективно съединяване на искове – понятие и видове. Насрещен иск и възражение за прихващане. Обратен иск. Инцидентен установителен иск. Съдебно решение при обективно съединяване на искове.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2066/" class="md-nav__link">
+        **Доказване в исковия процес. Понятие и видове доказване. Предмет и обсег на доказване. Тежест на доказване.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2067/" class="md-nav__link">
+        **Доказателствени средства – понятие и видове. Обяснения на страните. Свидетелски показания и ограниченията им. Писмени доказателства, тяхната доказателствена сила и оспорване. Веществени доказателства. Вещи лица.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2068/" class="md-nav__link">
+        **Процесуални действия на разпореждане с иска. Оттегляне и отказ от иск. Изменение на иск. Съдебна спогодба.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2069/" class="md-nav__link">
+        **Съдебни актове. Определения и разпореждания. Обжалване на определенията и разпорежданията. Решение. Постановяване и стабилитет на съдебното решение.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2070/" class="md-nav__link">
+        **Видове решения. Решение при признание на иска. Неприсъствено решение.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2071/" class="md-nav__link">
+        **Правни последици на съдебното решение. Сила на пресъдено нещо. Зачитане. Конститутивно действие. Изпълнителна сила.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2072/" class="md-nav__link">
+        **Пороци на решението, отстраними от постановилия го съд. Поправка на очевидна фактическа грешка. Тълкуване на неясно решение. Допълване на непълно решение.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2073/" class="md-nav__link">
+        **Порочни съдебни решения. Нищожни решения. Недопустими решения. Неправилни решения.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2074/" class="md-nav__link">
+        **Въззивно обжалване на съдебното решение. Правото на въззивна жалба и неговото упражняване. Насрещна жалба. Производство. Решения по жалбата.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2075/" class="md-nav__link">
+        **Касационно обжалване: формални ограничения на допустимостта на касационното обжалване (чл. 280, ал. 3 ГПК ), критерии за прилагане на селективния способ за очертаване приложното поле на касационното производство.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2076/" class="md-nav__link">
+        **Касационни основания. Особености на производството пред касационна инстанция при първо и второ по ред разглеждане на делото от тази инстанция.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2077/" class="md-nav__link">
+        **Отмяна на влязло в сила решение по чл. 303 ГПК. Процесуална легитимация и срокове за образуване на производството. Основания. Отмяна на влязло в сила решение по молба на трето лице. Производство и последици на решението на ВКС. Отмяната по чл. 304 ГПК.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2078/" class="md-nav__link">
+        **Особени искови производства по търговските спорове, колективните искове и бързите производства.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2079/" class="md-nav__link">
+        **Индивидуално принудително изпълнение. Право на принудително изпълнение и неговата характеристика. Изпълняемо право. Изпълнителен лист. Органи на принудителното изпълнение, страни и участници в изпълнителния процес. Изпълнителни основания.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2080/" class="md-nav__link">
+        **Заповедно производство.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2081/" class="md-nav__link">
+        **Способи за принудително изпълнение на парични притезания. Изпълнение върху недвижим имот. Изпълнение върху движима вещ. Изпълнение върху вземане. Изпълнение върху ценни книги. Изпълнение върху дял на длъжника от търговско дружество. Изпълнение върху обособена част от предприятие. Изпълнение върху права на длъжника върху обекти на индустриална собственост.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2082/" class="md-nav__link">
+        **Способи за принудително изпълнение на непарични задължения. Изпълнение на задължение за предаване на движима вещ. Въвод във владение. Изпълнение на заместими и незаместими престации. Изпълнение на задължение за бездействие. Изпълнение на задължение за предаване на дете.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2083/" class="md-nav__link">
+        **Защита на длъжника, взискателя, наддавача и на трети лица в изпълнителния процес при процесуална и материалноправна незаконосъобразност на процеса. Имуществената отговорност по чл. 441 ГПК.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2084/" class="md-nav__link">
+        **Обща характеристика на производството по несъстоятелност. Решение за откриване на производството. Последици. Попълване на масата на несъстоятелността. Предявяване, приемане и оспорване на вземанията. Органи в производството по несъстоятелност. Компетентност.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2085/" class="md-nav__link">
+        **Оздравително производство. План за оздравяване. Съдържание. Легитимация и срок за предявяване. Разглеждане и приемане на плана от събранието на кредиторите. Утвърждаване на оздравителния план от съда. Последици. Прекратяване на производството при утвърден от съда оздравителен план. Възобновяване на производството при неизпълнение на утвърдения план.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2086/" class="md-nav__link">
+        **Решение за обявяване в несъстоятелност. Осребряване и разпределяне на осребреното имущество. Приключване на производството по несъстоятелност. Възобновяване.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2087/" class="md-nav__link">
+        **Обезпечително производство. Цел и функции на обезпечаването на иска. Обезпечаването на бъдещ и на предявен иск. Развитие и приключване на производството.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2088/" class="md-nav__link">
+        **Охранителни производства. Характеристика и общи правила. Нотариални производства. Регистърно производство.**
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2089/" class="md-nav__link">
+        **Арбитраж – понятие и характеристика. Видове арбитраж. Арбитражно споразумение. Арбитражно производство. Изпълняемост на арбитражните решения. Признаване и отмяна на арбитражни решения.**
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Наказателноправни науки
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Наказателноправни науки" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Наказателноправни науки
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      <label class="md-nav__link" for="__nav_3_1">
+        Други полезни материали
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Други полезни материали" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Други полезни материали
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%94%D1%80%D1%83%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%B8/" class="md-nav__link">
+        Диаграми
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%94%D1%80%D1%83%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8/%D0%9F%D1%80%D0%B8%D0%B2%D1%80%D1%8A%D0%B7%D0%BA%D0%B8/" class="md-nav__link">
+        Привръзки
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%94%D1%80%D1%83%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B8%20%D0%B8%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/" class="md-nav__link">
+        Наказателноправни термини
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      <label class="md-nav__link" for="__nav_3_2">
+        Теми
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Теми" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Теми
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2001/" class="md-nav__link">
+        Въпрос 1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2002/" class="md-nav__link">
+        Въпрос 2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2003/" class="md-nav__link">
+        Въпрос 3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2004/" class="md-nav__link">
+        Въпрос 4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2005/" class="md-nav__link">
+        Въпрос 5
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2006/" class="md-nav__link">
+        Въпрос 6
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2007/" class="md-nav__link">
+        Въпрос 7
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2008/" class="md-nav__link">
+        Въпрос 8
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2009/" class="md-nav__link">
+        Въпрос 9
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2010/" class="md-nav__link">
+        Въпрос 10
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2011/" class="md-nav__link">
+        Въпрос 11
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2012/" class="md-nav__link">
+        Въпрос 12
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2013/" class="md-nav__link">
+        Въпрос 13
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2014/" class="md-nav__link">
+        Въпрос 14
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2015/" class="md-nav__link">
+        Въпрос 15
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2016/" class="md-nav__link">
+        Въпрос 16
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2017/" class="md-nav__link">
+        Въпрос 17
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2018/" class="md-nav__link">
+        Въпрос 18
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2019/" class="md-nav__link">
+        Въпрос 19
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2020/" class="md-nav__link">
+        Въпрос 20
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2021/" class="md-nav__link">
+        Въпрос 21
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2022/" class="md-nav__link">
+        Въпрос 22
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2023/" class="md-nav__link">
+        Въпрос 23
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2024/" class="md-nav__link">
+        Въпрос 24
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2025/" class="md-nav__link">
+        Въпрос 25
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2026/" class="md-nav__link">
+        Въпрос 26
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2027/" class="md-nav__link">
+        Въпрос 27
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2028/" class="md-nav__link">
+        Въпрос 28
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2029/" class="md-nav__link">
+        Въпрос 29
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2030/" class="md-nav__link">
+        Въпрос 30
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2031/" class="md-nav__link">
+        Въпрос 31
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2032/" class="md-nav__link">
+        Въпрос 32
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2033/" class="md-nav__link">
+        Въпрос 33
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2034/" class="md-nav__link">
+        Въпрос 34
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2035/" class="md-nav__link">
+        Въпрос 35
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2036/" class="md-nav__link">
+        Въпрос 36
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2037/" class="md-nav__link">
+        Въпрос 37
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2038/" class="md-nav__link">
+        Въпрос 38
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2039/" class="md-nav__link">
+        Въпрос 39
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2040/" class="md-nav__link">
+        Въпрос 40
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2041/" class="md-nav__link">
+        Въпрос 41
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2042/" class="md-nav__link">
+        Въпрос 42
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2043/" class="md-nav__link">
+        Въпрос 43
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2044/" class="md-nav__link">
+        Въпрос 44
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2045/" class="md-nav__link">
+        Въпрос 45
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2046/" class="md-nav__link">
+        Въпрос 46
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2047/" class="md-nav__link">
+        Въпрос 47
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2048/" class="md-nav__link">
+        Въпрос 48
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2049/" class="md-nav__link">
+        Въпрос 49
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2050/" class="md-nav__link">
+        Въпрос 50
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2051/" class="md-nav__link">
+        Въпрос 51
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2052/" class="md-nav__link">
+        Въпрос 52
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2053/" class="md-nav__link">
+        Въпрос 53
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2054/" class="md-nav__link">
+        Въпрос 54
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2055/" class="md-nav__link">
+        Въпрос 55
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2056/" class="md-nav__link">
+        Въпрос 56
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2057/" class="md-nav__link">
+        Въпрос 57
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2058/" class="md-nav__link">
+        Въпрос 58
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2059/" class="md-nav__link">
+        Въпрос 59
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2060/" class="md-nav__link">
+        Въпрос 60
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2061/" class="md-nav__link">
+        Въпрос 61
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2062/" class="md-nav__link">
+        Въпрос 62
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2063/" class="md-nav__link">
+        Въпрос 63
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2064/" class="md-nav__link">
+        Въпрос 64
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2065/" class="md-nav__link">
+        Въпрос 65
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2066/" class="md-nav__link">
+        Въпрос 66
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2067/" class="md-nav__link">
+        Въпрос 67
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2068/" class="md-nav__link">
+        Въпрос 68
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2069/" class="md-nav__link">
+        Въпрос 69
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2070/" class="md-nav__link">
+        Въпрос 70
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2071/" class="md-nav__link">
+        Въпрос 71
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2072/" class="md-nav__link">
+        Въпрос 72
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2073/" class="md-nav__link">
+        Въпрос 73
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2074/" class="md-nav__link">
+        Въпрос 74
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2075/" class="md-nav__link">
+        Въпрос 75
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2076/" class="md-nav__link">
+        Въпрос 76
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2077/" class="md-nav__link">
+        Въпрос 77
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2078/" class="md-nav__link">
+        Въпрос 78
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2079/" class="md-nav__link">
+        Въпрос 79
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2080/" class="md-nav__link">
+        Въпрос 80
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2081/" class="md-nav__link">
+        Въпрос 81
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2082/" class="md-nav__link">
+        Въпрос 82
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2083/" class="md-nav__link">
+        Въпрос 83
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2084/" class="md-nav__link">
+        Въпрос 84
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2085/" class="md-nav__link">
+        Въпрос 85
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2086/" class="md-nav__link">
+        Въпрос 86
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2087/" class="md-nav__link">
+        Въпрос 87
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2088/" class="md-nav__link">
+        Въпрос 88
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2089/" class="md-nav__link">
+        Въпрос 89
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2090/" class="md-nav__link">
+        Въпрос 90
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Публичноправни науки
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Публичноправни науки" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Публичноправни науки
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2001/" class="md-nav__link">
+        Тема 01
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2002/" class="md-nav__link">
+        Тема 02
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2003/" class="md-nav__link">
+        Тема 03
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2004/" class="md-nav__link">
+        Тема 04
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2005/" class="md-nav__link">
+        Тема 05
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2006/" class="md-nav__link">
+        Тема 06
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2007/" class="md-nav__link">
+        Тема 07
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2008/" class="md-nav__link">
+        Тема 08
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2009/" class="md-nav__link">
+        Тема 09
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2010/" class="md-nav__link">
+        Тема 10
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2011/" class="md-nav__link">
+        Тема 11
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2012/" class="md-nav__link">
+        Тема 12
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2013/" class="md-nav__link">
+        Тема 13
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2014/" class="md-nav__link">
+        Тема 14
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2015/" class="md-nav__link">
+        Тема 15
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2016/" class="md-nav__link">
+        Тема 15
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2017/" class="md-nav__link">
+        Тема 17
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2018/" class="md-nav__link">
+        Тема 18
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2019/" class="md-nav__link">
+        Тема 19
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2020/" class="md-nav__link">
+        Тема 20
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2021/" class="md-nav__link">
+        Тема 21
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2022/" class="md-nav__link">
+        Тема 22
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2023/" class="md-nav__link">
+        Тема 23
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2024/" class="md-nav__link">
+        Тема 24
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2025/" class="md-nav__link">
+        Тема 25
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2026/" class="md-nav__link">
+        Тема 26
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2027/" class="md-nav__link">
+        Тема 27
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2028/" class="md-nav__link">
+        Тема 28
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2029/" class="md-nav__link">
+        Тема 29
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2030/" class="md-nav__link">
+        Тема 30
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2031/" class="md-nav__link">
+        Тема 31
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2032/" class="md-nav__link">
+        Тема 32
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2033/" class="md-nav__link">
+        Тема 33
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2034/" class="md-nav__link">
+        Тема 34
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2035/" class="md-nav__link">
+        Тема 35
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2036/" class="md-nav__link">
+        Тема 36
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2037/" class="md-nav__link">
+        Тема 37
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2038/" class="md-nav__link">
+        Тема 38
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2039/" class="md-nav__link">
+        Тема 39
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2040/" class="md-nav__link">
+        Тема 40
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2041/" class="md-nav__link">
+        Тема 41
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2042/" class="md-nav__link">
+        Тема 42
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2043/" class="md-nav__link">
+        Тема 43
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2044/" class="md-nav__link">
+        Тема 44
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2045/" class="md-nav__link">
+        Тема 45
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2046/" class="md-nav__link">
+        Тема 46
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2047/" class="md-nav__link">
+        Тема 47
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2048/" class="md-nav__link">
+        Тема 48
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2049/" class="md-nav__link">
+        Тема 49
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2050/" class="md-nav__link">
+        Тема 50
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2051/" class="md-nav__link">
+        Тема 51
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2052/" class="md-nav__link">
+        Тема 52
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2053/" class="md-nav__link">
+        Тема 53
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2054/" class="md-nav__link">
+        Тема 54
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2055/" class="md-nav__link">
+        Тема 55
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2056/" class="md-nav__link">
+        Тема 56
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2057/" class="md-nav__link">
+        Тема 57
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2058/" class="md-nav__link">
+        Тема 58
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%20%D0%BD%D0%B0%D1%83%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D0%B0%2059/" class="md-nav__link">
+        Тема 59
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Съдържание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Съдържание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Понятие, принципи и развитие на българското наследствено право.
+  </a>
+  
+    <nav class="md-nav" aria-label="Понятие, принципи и развитие на българското наследствено право.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Правото на наследяване се характеризира като:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Принципи на наследственото право:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Наследяване. Наследство. Откриване на наследство.
+  </a>
+  
+    <nav class="md-nav" aria-label="Наследяване. Наследство. Откриване на наследство.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Общо и частно наследствено правоприемство.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Приемане и отказ от наследство
+  </a>
+  
+    <nav class="md-nav" aria-label="Приемане и отказ от наследство">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Приемане на наследството.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Правно действие на приемането (важи и за отказ от наследство).
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    Приемане на наследство по опис.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Отказ от наследство.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Наследствена трансмисия.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Съпоставка между право на заместване и наследствена трансмисия:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Отношения между сънаследниците – наследствена общност.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Отношения между сънаследниците и трети лица. Отговорност за задълженията и заветите.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/LexsTech/LexsWiki/edit/main/docs/Гражданскоправни науки/Тема 54.md" title="Редактирай тази страница" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="-"><strong>Наследяване - понятие и видове. Наследство. Откриване на наследство. Приемане и отказ от наследство. Отговорност на наследниците. Отношения между сънаследници.</strong></h1>
+<h2 id="_1"><strong>Понятие, принципи и развитие на българското наследствено право.</strong></h2>
+<p>Наследственото право е тази част от гражданското право, която регулира имуществените отношения, пораждащи се по повод смъртта на гражданите, във връзка с преминаването на тяхното имущество към други лица. В практиката често се смесват понятията „наследствено право“ и „право на наследяване“. Между тези две понятия има разлика. Наследственото право е правото в обективен смисъл, т.е. съвкупността от правни норми, които регулират отношенията, свързани с наследственото правоприемство. Правото на наследяване е субективно право на наследника, което обхваща принадлежащото на същия право да приеме наследството или да се откаже от него.</p>
+<p>Наследственото право може да се определи като: съвкупност от правни норми, представляващи част от гражданското право, които регламентират правоотношенията, настъпващи по повод смъртта на едно лице и уреждащи преминаването на имуществото на това лице към имуществата на други лица.</p>
+<p>Налице са трите основни елемента за всяко правоотношение:</p>
+<p>Субекти (страни на правоотношението): всички познати гражданскоправни субекти: физически лица; юридически лица; държавата. Под въпрос е правното положение на общините: с последното изменение на ЗН (края на 1999 г.), бе изменен чл. 11 – за първи път в ЗН се дава възможност общините да придобиват някакво имущество след смъртта на едно лице, но е спорно дали е между субектите.</p>
+<p>Юридическите факти (пораждащи наследствено ПО): характерно е, че юридически факт – единствен или един от фактическия състав винаги е смъртта на едно лице (смъртта – самостоятелно или паралелно с други юридически факти).</p>
+<p>Съдържанието на насл.ПО (права и задълженията, които възникват между правните субекти): наследствените правоотношения са различни, но общо правило е че във всяко едно наследствено правоотношение като елемент от съдържанието му присъства субективното право на наследяване.</p>
+<p>Субективното право на наследяване: призната и гарантирана възможност на едно лице да придобие имуществото на друго починало лице, т.е. да придобие едно наследство. Правото на наследяване възниква в момента на настъпване на смъртта на наследодателя, но неговите наследници по закон или по завещание могат, придобивайки това право, да изберат: 1) или да изявяват воля за придобиване на наследството, да приемат наследството и да станат титуляри на включените в него права и задължения; 2) или да се откажат от наследството, с което губят правото си на наследяване и възможността да придобият включените в наследството права и задължения. Множеството потенциални наследници на едно лице са от различни редове. 1-ви ред наследници (деца) – изключват 2-ри ред наследници (родители), т.е. всички потенциални наследници на едно лице имат право на наследяване, но едни (от най-близкия ред) – го придобиват незабавно/безусловно и могат веднага да го упражнят; останалите наследници от следващите редове притежават правото на наследяване, но то е под отлагателно условие – налице е очакване (на бъдещо несигурно събитие): отказ на наследник от предходния ред или недостойнство да наследява за наследник от предходния ред.</p>
+<h3 id="_2">Правото на наследяване се характеризира като:</h3>
+<p>Абсолютно право: титулярът на правото може сам да осъществи действията, свързани с упражняване на правото и сам чрез своето поведение да задоволи признатия му от закона интерес без да е необходимо поведение на други лица. Неограничен кръг на насрещно задължени лица: дължат единствено бездействие и следва да не пречат на титуляря.</p>
+<p>Преобразуващо потестативно право: правото на наследяване се упражнява чрез едностранно волеизявление на титуляря; чрез това едностранно волеизявление се предизвиква правна промяна не само в собствената правна сфера (на титуляря), но и в чужда правна сфера (деца, които приемат и всичко се прекратява за родителите, които са от 2-ри ред). Правната промяна се състои в това, че например когато едно дете упражни правото си на наследяване – за следващия ред правото на наследяване се погасява: имаме вече наследник от 1-ви ред, който е приел наследството.</p>
+<h3 id="_3">Принципи на наследственото право:</h3>
+<p>Принцип на равноправие – Равноправие между наследници от мъжки и от женски пол; между брачни и извънбрачни деца; рождени и осиновени. Не може да наследява родителя си по произход осиновеният, чието осиновяване е отменено, след като наследството е било открито. Отмяната на осиновяването действа за в бъдеще. Ако отменяването на осиновяването действа ретроактивно, тогава правата, които биха се проявили от момента на неговото извършване във връзка с наследството, останало от рождените родители, трябва да останат висящи, свързани с несигурното събитие за евентуалното бъдещо отменяване на осиновяването.</p>
+<p>Свобода на завещателната воля – възможността на всяко едно лице – потенциален наследодател да се разпореди с имуществото си чрез завещание и по този начин да се отклони от правилата, които законът урежда за наследяване: чл. 14, ал. 1 от ЗН. Преди 1992 г. – текста на ЗН е с продължение: “…в полза на наследниците си по закон, държавата и обществени организации.” Другата алинея гласи: “…а в полза на други лица извън тези, би могъл да се разпорежда с не повече от ½ от имуществото си”. Ако би завещал повече от 1/2 – това завещание е частично нищожно за частта, надхвърляща ½, т.е. която е в повече: тази част се връща в наследството и се разпределя между наследниците по закон, ако няма такива – отива в полза на държавата. От 1992 г. това положение е отменено. Завещателят може да се разпорежда с цялото си имущество.</p>
+<p>Защита на най-близките роднини на наследодателя. Този принцип ограничава завещателната свобода. Изразява се в правилата за т.н. запазена част на най-близките роднини, уредена в чл. 28 и сл. Общо взето има противоречие между чл. 14 и чл. 28 ЗН. Крайният изход: едно лице може да завещае цялото си имущество на когото и да е и това завещание ще бъде валидно завещание, т.е. няма да има частична нищожност за частта, която накърнява запазената част. Лицето, което има запазена част, и тя е накърнена може (има потестативното право) да атакува по исков ред завещанието. Неограничена ще бъде завещателната свобода, когато лицето няма наследници със запазена част. Ако има такива – пак може да завещае цялото си имущество. Двата принципа взаимно се ограничават.</p>
+<p>Могат да се изведат още 2 съществени принципа: 1) Принцип на реален дял в наследството – всеки наследник получава в натура като обаче се допуска и парично изравняване. 2) Принцип на недопустимост на неоснователното обогатяване – чл. 12 ЗН: (1) Hаследниците, които са живели с наследодателя и са се грижили за него, получават в наследство обикновената покъщнина, а ако се занимават със земеделие и не са съответно възнаградени по друг начин - и земеделския инвентар на наследодателя. (2) Сънаследници, които приживе на наследодателя са спомогнали да се увеличи наследството, могат, ако те не са били възнаградени по друг начин, да искат при делбата да се пресметне това увеличение в тяхна полза; увеличението може да се даде в имот или в пари.</p>
+<h2 id="_4"><strong>Наследяване. Наследство. Откриване на наследство.</strong></h2>
+<p>Наследяване – преминаване на имуществото на едно починало лице към имуществото на едно или няколко лица, се нарича наследяване или наследствено правоприемство.</p>
+<p>Наследяването е два основни вида:</p>
+<p>По закон – преминаването на имуществото се осъществява с оглед правилата в ЗН, т.е. лицата, към които то ще премине и техните дялове се определят от ЗН.Наследяването по закон се осъществява, когато не е налице завещание.</p>
+<p>Наследяване по завещание:</p>
+<p>- Кръгът на облагодетелстваните лица и обемът на наследствените права се определя от волята на наследодателя, изразена в неговото завещание.</p>
+<p>- Наследяването по завещание има приоритет пред наследяването по закон. Това е така по принцип, макар че не е изключено да се стигне до паралелно наследяване: и по закон, и по завещание.  Така ще бъде винаги, когато завещателят не се е разпоредил в завещанието си с цялото си имущество, а например с 1/3 – останалата част от имуществото ще се наследява по закон. Друг вариант: направил е завещание, но с него е накърнил запазената част на наследник по закон, ако последният реши да атакува завещанието – тогава той ще наследява по закон.</p>
+<h3 id="_5">Общо и частно наследствено правоприемство.</h3>
+<p>Общо наследствено правоприемство е налице, когато имуществото преминава като цяло или в дробни части, но винаги като съвкупност от права и задължения.</p>
+<p>Когато имуществото на наследодателя преминава към едно лице като съвкупност от права и задължения.</p>
+<p>Когато наследството е разделено между няколко наследника: всеки от тях получава съвкупност от права и задължения.</p>
+<p>При наследяването по закон правоприемството е винаги общо, друго не може да се осъществи.</p>
+<p>Наследяване по завещание – може да има или общо, или частно правоприемство.</p>
+<p>Частно наследствено правоприемство е налице при завета (вид завещание): завещателят оставя на едно лице само определено имуществено право/ или права, но само права, не и задължения (завещавам недвижимия си имот). Лицето, което е облагодетелствано по този начин, се нарича заветник. Заветникът не е наследник (получил е конкретно наследствено право).</p>
+<p>Положението на заветниците е на особени кредитори на наследниците. Те имат правото да искат от наследниците да им предадат това, което им е завещано (пари, недвижими имоти и др.) – имат едно право на вземане към наследниците. Същинските кредитори са били кредитори на наследодателя приживе и след неговата смърт – те стават кредитори и на наследниците. Заветникът никога не е бил кредитор на наследодателя. Към наследодателя заветникът не е имал права. При конкуренция се предпочитат кредиторите. Удовлетворяват се преди заветниците.</p>
+<p>Наследство – съвкупност от прехвърлими имуществени права и задължения, които наследодателят е притежавал към момента на смъртта си.</p>
+<p>Неимуществените права и задължения се погасяват със смъртта на наследодателя по принцип, но някои от тях са обект на наследяване</p>
+<p>Правото на публикуване, възпроизвеждане и разпространение на авторско произведение. Правото на авторско име е непрехвърлимо и ненаследимо.</p>
+<p>Членствените права и задължения на кооператор се наследяват по особен начин от членовете на семейството му.</p>
+<p>Правото на членство в ЖСК не е имуществено право. Ако починалият кооператор е завещал правата си в ЖСК, заветникът не може да заема мястото на починалия, а може само да получи направените имуществени вноски.</p>
+<p>Непрехвърлими имуществени права.</p>
+<p>По закон: вещното право на ползване /чл. 56 ЗС/.</p>
+<p>По естество: право и задължение за издръжка; право на пенсия /ако лицето не си е взело предишни пенсии – ще ги наследят, но за в бъдеще не може да се наследи качеството на пенсионер/. Наследствена пенсия: лицето я получава по повод смъртта на негов близък, който го е издържал приживе; приживе наследодателят може да не е получавал пенсия.</p>
+<p>По волята на страните: сключен е договор intuitu personae /договор за поръчка, изработка/.</p>
+<p>Към момента на смъртта си – в наследството влиза и правото на наследяване.</p>
+<p>Чл. 57 ЗН урежда наследствена трансмисия /наследяване на правото на наследяване/.</p>
+<p>Застрахователното обезщетение /по застраховка “живот”/, което получава наследникът дали е наследство? – трябва ли да се плати данък наследство върху него: не е наследство, защото наследодателят не е имал приживе правото да получи застрахователно обезщетение. Закон за местните данъци и такси – не е наследство, но се облага като наследство.     </p>
+<p>Наследство и имущество – наследството е по-тясно, включва само прехвърлими права и задължения и е фиксирано към определен момент и не се променя. Имуществото включва всички имуществени права и задължения, които принадлежат на лицето цял живот и се променя.</p>
+<p>Откриване на наследството. С настъпването на смъртта на наследодателя се открива възможността за неговите наследници да придобият правата и задълженията, които той е имал и които не се погасяват с неговата смърт. Този юридически факт, при наличието на който възниква правото на наследяване, се нарича откриване на наследството. Наследството се открива и в случай, когато по реда на чл. 14 и сл. ЗЛС е обявена смъртта на едно безвестно отсъстващо лице. Обявената с решението на съда смърт в този случай поражда по отношение на наследяването същите правни последици, които произтичат от действителната смърт на лицето (чл. 17 ЗЛС).</p>
+<p>Наследството се открива в момента на смъртта на наследодателя в последното му местожителство. Това е мястото, където същият се е установил да живее и е вписан в регистъра на населението на общината с постоянен адрес (чл. 1 ЗН, във връзка с чл. 4, ал. 2 ЗГР).</p>
+<p>Тук могат да се явят трудности при разрешаване на въпроса за момента на откриване на наследството, когато две или повече лица, които могат да бъдат призовани за наследници един на друг, загинат при едно и също събитие (злополука, обществено бедствие и др.). В чл. 10а ЗН в този случай се приема, че когато няколко лица са починали и не може да се установи последователността, в която е настъпила смъртта за всеки от тях, се счита, че по-възрастният е починал преди по-младия.</p>
+<p>Времето и мястото на откриване на наследството имат важно практическо значение. С оглед времето на откриване на наследството, поначало се определят наследствените правоотношения. Към този момент се определя кои са наследниците и каква е наследствената маса, както и каква част се следва на всеки от наследниците, като се има предвид законът, който е в действие при откриване на наследството. От този момент се пораждат наследствените права и задължения (чл. 48 ЗН)</p>
+<h2 id="_6"><strong>Приемане и отказ от наследство</strong></h2>
+<h3 id="_7">Приемане на наследството.</h3>
+<p>Приемането на наследството е едностранен акт, с който наследникът изявява волята си да го придобие. С него се определят отношенията между наследниците помежду им и между тях и третите лица, които са били в имуществени отношения с наследодателя.</p>
+<p>Приемането произвежда действие от момента на откриването на наследството, то действа с обратна сила. Приемането на наследството, направено под условие, за срок или за част от наследството, са недействителни.</p>
+<p>С отмяната на чл. 50 ЗН (1992 г.) вече не се предвижда срок (давност), в който наследникът да следва да заяви ще приеме ли наследството, или не.</p>
+<p>В преходната разпоредба на § 9 ЗН е посочено, че отмяната на срока за приемане на наследството се отнася както за открити преди влизане в сила на този закон наследства, по които в срока не е направено възражение за изтекла давност, така и относно имотите, собствеността върху които се възстановява. ВКС приема, че ако възражението, че наследството не е прието в петгодишен срок от откриването му, е направено преди влизане в сила на ЗИДЗН, правото на наследника да го приеме се счита за погасено, независимо че спорът се разглежда от съда след това. Отпадането на изискването за петгодишна давност за приемане на наследството обаче не означава, че отпада и възможността за придобиване по давност на наследствен имот.</p>
+<p>Наследник, който е изгубил правото да приеме наследството, не изгубва правото да приеме законната си част при реституиране на отнети или одържавени имоти от наследодателя. А в случая, когато наследникът почине след наследодателя, то неговите наследници получават правата му в пълен обем от реституираните имоти.</p>
+<p>Наследникът обаче може да бъде заставен да се произнесе по въпроса за приемане на наследството. Съгласно чл. 51 ЗН, по искане на всеки заинтересован, районният съдия може да определи на наследника срок, за да заяви, приема ли наследството, или се отказва от него. Преди да определи този срок, съдът призовава наследника и ако той се яви, го изслушва по въпроса. Когато има заведено дело срещу наследника, което не може да се движи, понеже той не се е произнесъл, дали ще приеме наследството, срокът за приемане се определя от съда, който разглежда делото. Ако наследникът не отговори в срока по чл. 51 ЗН, той губи правото да приеме откритото в негова полза наследство. Касае се до преклузивен срок, който нито спира, нито може да се прекъсне и с изтичане на който се погасява самото субективно право на наследника.</p>
+<p>Отмяната на срока за приемане на наследството не изключва възможността и наследниците от четвърти ред да упражнят правата по чл. 51 ЗН. Те също имат правен интерес от това. Наследството може да бъде прието направо или по опис.</p>
+<p>Приемането на наследството може да стане изрично или мълчаливо.</p>
+<p>Изричното приемане се извършва с писмено заявление до районния съдия по местооткриване на наследството. То се вписва в особена за това книга (чл. 49, ал. 1 ЗН). Мълчаливо приемане има, когато наследникът извърши действия, които несъмнено предполагат намерението му да приеме наследството и които той не би имал право да извърши, освен в качеството си на наследник (чл. 49, ал. 2 ЗН). Тези действия могат да бъдат най-различни. Законът предоставя на съда за всеки конкретен случай да прецени, доколко те предполагат волята на наследника да приеме наследството.</p>
+<p>За недвусмислени действия съдебната практика приема актовете на разпореждане с наследствени вещи. Достатъчно е наследникът да извърши разпореждане с наследствено имущество, за да се счете,че приема наследството. ВКС смята, че е налице мълчаливо приемане на наследството, дори когато наследникът е поискал от общината да се извърши оценка на наследствен имот (89-83-I). Предявяването на иск за делба е също акт, с който наследникът манифестира намерението си да приеме наследството.</p>
+<p>Практиката приема, че получаването на трудовото възнаграждение на наследодателя или заплащане на дълга му от неговите наследници означава мълчаливо приемане на наследството. Тези действия не могат да се приемат за временно управление на чуждо имущество с охранителна цел, нито за извършване на чужда работа. ВКС изрично подчертава, че изтеглянето на влога на починал съпруг от преживялата го съпруга, както и изплащането на негови задължения представляват действия по приемане на наследството. Съгласно чл. 49, ал. 2 ЗН, наследството се счита за мълчаливо прието и когато наследникът укрие наследствено имущество. В този случай той губи правото си на дял върху укритото наследство и то се разделя между останалите сънаследници. ВКС следва утвърдената практика, че след като едно наследство е прието мълчаливо, формално заявеният след извършването на конклудентните действия по приемането отказ от наследството е недействителен.</p>
+<p>Не може да се смята обаче, че има мълчаливо приемане на наследството, когато наследникът извърши действия, влизащи в кръга на обикновеното управление на наследствените имоти. Това са действията, без които би се нарушил нормалният ход на работата в наследственото имущество или би настъпила загуба в наследството, както и когато наследникът предприеме мерки за запазване на наследственото имущество, като предяви владелчески иск за защита на същото и др. (чл. 58 ЗН). Използването на една обикновена покъщнина, необходима на всяко семейство, също не съставлява мълчаливо приемане на наследство.</p>
+<p>Мълчаливото приемане трябва да бъде несъмнено и затова предаването на декларация за облагане с данък върху наследството още не значи, че наследникът го приема. Съгласно чл. 32 ЗМДТ наследниците са длъжни в 6-месечен срок да подадат декларация, за да може облагането с данък върху наследството да се извърши своевременно и правилно. Недекларирането съставлява нарушение, свързано с глоба. Затова не може да се счете, че подаването на декларация в изпълнение на закона изразява намерението за приемане на наследството.</p>
+<h3 id="_8">Правно действие на приемането (важи и за отказ от наследство).</h3>
+<p>По своята същност приемането и отказът от наследство представляват правни действия и затова те могат да бъдат извършени само от дееспособни лица. За недееспособни лица се прилагат съответно разпоредбите на чл. 3-5 ЗЛС. Отказът от права на ненавършилия пълнолетие е нищожен. </p>
+<p>След откриване на наследството наследникът може да прехвърли само своята наследствена част или наследствените си права като съвкупност (чл. 212 ЗЗД), но не и самото право за приемане на наследството.</p>
+<p>Наследникът не може да приеме само част от наследството или да се откаже за част от него. Приемането и отказът, направени за част от наследството, са недействителни (чл. 54 ЗН). Те са недопустими, тъй като наследството преминава изцяло, а не в отделни негови части. Но според ВКС, чл. 54 ЗН има предвид случаите, когато се наследява на едно и също основание – по закон, или по завещание. Когато едно лице наследява едновременно и по закон и по завещание, отказът на наследника от наследството по завещание е действителен.</p>
+<p>Приемането и отказът могат да бъдат засегнати от недостатъци (насилие, заплашване, измама), които правят изявлението недействително (чл. 44 ЗЗД). Не се допуска обаче оспорване на приемането и отказа от наследство поради грешка (чл. 54 ЗН). Отнася се до случаите, когато наследникът е изпаднал в грешка по собствена вина, самозаблудил се е, а не и когато поради измама на друго лице той е бил въведен в заблуждение.</p>
+<p>ЗН допуска да се прави оспорване, когато наследникът е приел наследството направо, като не е знаел, че наследодателят е оставил завещание, в което са направени облагодетелствания в размер, по-голям от наследственото имущество, които изчерпват актива, или когато с тях се накърнява запазената част за наследника. Понеже при приемане на наследството направо наследникът отговаря за заветите в пълния им размер, дори когато те надвишават актива, за да не бъде поставен в неизгодно положение да отговаря и за заветите, които не са му били известни при приемането, законът освобождава наследника от задължението да удовлетвори заветите, които са извън стойността на наследството, както и тия, които накърняват неговата запазена част (чл. 55 ЗН). В този случай приемането на наследството не се унищожава. То се запазва, като на наследника се дава възможност да иска намаление и на заветите по другите известни му завещания. Това се налага от обстоятелството, че завещателните разпореждания трябва да бъдат съразмерно намалени (чл. 32 ЗН), иначе би било несправедливо известните на наследника завещания да бъдат изпълнени изцяло, а намалението да обхване само тези, които са неизвестни.</p>
+<p>За установяване на приемане на наследството или за нищожност на заявен отказ е недопустим отделен иск. Отказалият се от наследството, който поддържа, че отказът му е нищожен, може да предяви иск за делба на наследство или друг иск, основан на наследяването, и в образуваното производство да се позове на нищожността. Само когато наследникът не разполага с никакъв друг иск, той може да предяви самостоятелно иск за установяване на нищожността на отказ при наличие на приемане на наследството (ПП ВКС 7-73).</p>
+<p>Искът по чл. 56 ЗН „Кредиторите на лицето, което се е отказало от наследството, могат да искат унищожението на отказа в своя полза, доколкото не могат да се удовлетворят от имуществата на наследника“ „унищожение“ но не в смисъла на опорочена воля. Право на иск имат кредиторите на отказалия. Този иск има в основата си иска по чл. 135 ЗЗД, за да се даде възможност на кредиторите да се удовлетворят от това имущество за своите вземания. Но ако беше само искът по чл. 135 ЗЗД, това означаваше да постигнат отмяна на отказа, но не и приемане. Т.е. искът по чл. 56 ЗН включва елементи и на иска по чл. 134 ЗДД – приемането е само в полза на кредиторите, предявили иска и има действие, само доколкото това е необходимо за удовлетворяване на техните вземания. Частично приемане е недействително. Възникват много въпроси и какво става със задълженията на наследството. Искът за унищожаване на отказа може да се предяви в едногодишен срок от узнаването му, но не по-късно от 3 години след отказа. За наследства, открити при действието на стария закон, срокът по чл. 56 ЗН започва да тече от влизането на новия закон в сила - 29.04.1949 г. (чл. 92 ЗН).</p>
+<h3 id="_9">Приемане на наследство по опис.</h3>
+<p>Приемане на наследството по опис има значение за отговорността на наследника за задълженията на наследството. Когато наследникът иска да ограничи своята отговорност до размера на това, което е получил в наследство, той трябва да приеме последното по опис. Напр. дълг 10 000 лв, приема направо, а не по опис ½ от наследствено, ще отговаря за 5000 лв., независимо колко е получил. Наследниците отговарят разделно, дялово, но отговаря за цялото задължение съразмерно дела си. За да избегне този риск – може да приеме наследството по опис и да отговоря до стойността на полученото.</p>
+<p>По смисъла на чл. 60, ал. 2 ЗН, кредиторите могат да искат удовлетворение и да насочат изпълнението както към имуществото, получено по наследство, така и върху личното имущество на наследника, но само до размера на полученото наследство.</p>
+<p>Срок. Съгласно чл. 61 ЗН, приемането на наследството по опис може да се направи само изрично, и то писмено, пред районния съдия по местоокриването в тримесечен срок, откакто наследникът е узнал, че наследството е открито. Този срок може да бъде продължен от съдията още до 3 месеца от съда.</p>
+<p>Приемането се вписва в особената за това книга на съда по чл. 49, ал. 1 ЗН. Ако в срока по чл. 61 ЗН наследникът не направи изявление за приемане на наследството по опис, той губи окончателно това право и може да приеме наследствено само по право.</p>
+<p>Наследникът е длъжен да посочи на районния съдия всички известни му наследствени имоти, за да бъдат вписани в описа, иначе губи изгодите, свързани с този начин на приемане на наследството, т.е. отговаря неограничено (чл. 64 ЗН). Съдът по правило назначава вещо лице, което да определи състава, стойността и обхвата на отговорност. Когато при описа се прави възражение относно принадлежността на имуществото, то се вписва в описа, а спорът се разрешава след това по исков ред.</p>
+<p>Приемането на наследството по опис от един от сънаследниците ползва и останалите, т.е. счита се, че и те са го приели по опис. Разбира се, това не ги лишава от правото да приемат наследството направо или да се откажат от него (чл. 62 ЗН).</p>
+<p>Всяко разпореждане от страна на наследодателя, с което се забранява приемането на наследството по опис, се счита за недействително.</p>
+<p>Приемането на наследството по опис е задължително за наследника, който е предявил искане за възстановяване на своята запазена част, когато упражнява това право спрямо лица извън кръга на наследниците по закон.</p>
+<p>С оглед запазване на интересите на недееспособните лица, на държавата и на обществените организации, ЗН изисква те да приемат наследството само по опис (чл. 61, ал. 2). За тях срокът по ал. 1 на чл. 61 ЗН не важи. При това не е необходимо приемането да се вписва по реда на чл. 49, ал. 1 ЗН. Описът обаче трябва да се състави, за да се приведе в известност наследственото имущество и да се изясни въпросът за отговорността пред кредиторите на наследството. Но и когато не е извършен такъв опис, отговорността остава ограничена и не може да надхвърли размера на полученото имущество. Ако такъв опис не е съставен, а е предприето изпълнение, последното ще трябва да спре, за да се даде възможност на заинтересованата страна да установи, какъв е активът на наследството.</p>
+<p>Наследникът по опис не може да се разпорежда с наследственото имущество, докато не ликвидира дълговете на наследството. Той само го управлява, като е длъжен да полага грижи, каквито полага за собствените си работи. Отговаря на общо основание за вредите и загубите, които е причинил на кредиторите на наследството и на заветниците във връзка с това управление. Той не може да отчуждава недвижимите имущества до 5 години от приемане на наследството, а движимите - до 3 години, освен с разрешение на районния съдия. Отчуждаването им преди изтичане на горните срокове или без разрешение на районния съдия е напълно валидно, но в тези случаи наследникът отговаря за задълженията на наследодателя неограничено, т.е. губи изгодите от приемането на наследството по опис (чл. 65, ал. 1 ЗН).</p>
+<p>Законът предвижда тези ограничения в интерес на кредиторите и заветниците. Съгласно чл. 65, ал. 2 ЗН наследникът по опис дължи сметка на кредиторите и заветниците за управлението на наследството.</p>
+<p>Чл. 66 урежда ред за удовлетворяване на кредиторите – по реда, в който са предявили претенциите си. Възможно е „всеки кредитор или заветник може да поиска районният съдия да определи реда и начина, по който наследникът ще плаща на кредиторите и заветниците“. В ал. 2 е предвидено предпочитание на кредиторите пред заветниците „Кредиторите, които предявяват правата си, след като активът на наследството е изчерпан, имат обратен иск срещу заветниците. Искът трябва да бъде предявен в срок от три години от последното плащане“. (това се включва и във въпрос 60).</p>
+<h3 id="_10">Отказ от наследство.</h3>
+<p>Наследникът, който е призован към наследяване, може да се откаже от наследството. Той може да направи това, само ако не го е приел. Отказът, извършен след като е прието наследството, е недействителен (991-90-I). На тази недействителност могат да се позоват както третите заинтересувани лица, така и самият наследник, който се е отказал от наследството, след като го е приел.</p>
+<p>С изменението на ЗН беше създаден нов член (91а), съгласно който при наследство, в което влизат имоти, одържавени или включени в трудовокооперативни земеделски стопански или в други образувани въз основа на тях селскостопански организации, собствеността върху които се възстановява, отказ от наследството, извършен след одържавяването, съответно включването на имотите няма действие по отношение на тези имоти. Те се смятат за новооткрито наследство по смисъла на чл. 1 ЗН.</p>
+<p>Отказът от наследство е едностранен формален писмен акт, който изрично трябва да бъде направен с писмено заявление пред съдията, в района на когото е открито наследството. Той се вписва в предназначената за това книга за приеманията и отказите от наследство, която се води в районния съд (чл. 52 ЗН). Практиката изисква подписът в заявлението за отказ да бъде нотариално удостоверен.</p>
+<p>Отказът от наследство произвежда действие от датата на вписването му в особената книга при районния съд (конститутивно действие). Ако от датата на изявлението за отказ, до вписването му, наследството е прието, отказът е недействителен. Отказът от наследство, заявен от един наследник при уговорка за насрещна престация от друг, означава приемане на наследството от формално отреклия се.</p>
+<p>Когато наследникът се откаже от наследството, се счита, че не е имал никога право върху него и не може вече да го приеме. Той не може да оттегли своя отказ. Действията на разпореждане, които наследникът извършва с наследственото имущество след отказа от наследството, са действия на трето лице, което носи последиците от тези си действия като такова лице. Отказалият се от наследство се освобождава и от задълженията, които тежат върху последното.</p>
+<p>Лицето, което се е отказало от наследството, се изключва от числото на наследниците. Неговата част от наследството уголемява дяловете на останалите наследници (чл. 53 ЗН).Това са не всички наследници, а само тези от коляното на отказалия се. Това указание се нуждае от уточнение. Поначало, при отказ от наследство частта на отказалия се уголемява дяловете на останалите наследници от същия ред, а когато някой от тях е починал и се замества от негови заместници, уголемяването ползват и последните. Ако наследниците от реда, към който принадлежи отказалият се, не приемат наследството или ако отказалият се е единствен наследник от този ред, частта му преминава към наследниците от следващия ред. Ако всички деца се откажат от наследството, техните части следва да бъдат получени от съпруга и от наследниците от следващия ред.</p>
+<p>Когато наследникът изгуби правото да приеме наследството, съгласно чл. 49, ал. 2 (укриване на наследство) и чл. 51 ЗН (неприемане на наследството в 1-месечен срок от призоваването му от съда), настъпват същите правни последици, както при отказ  от наследството: неговата част уголемява дяловете на останалите наследници.</p>
+<p>Преживелият съпруг не може чрез отказ от своята част в общото съпружеско имущество да я прехвърли на останалите наследници. Тази част не е наследство и не може с отказ от нея да се уголеми делът на останалите наследници. В този случай, ако преживелият съпруг иска да прехвърли тази част на своите наследници, това може да направи по реда на чл. 18 ЗЗД - по нотариален ред. Поради това отказът е нищожен.</p>
+<p>Ако някой от наследниците преди отказа от наследството е прехвърлил своите наследствени права на трето лице, върху уголемяването на наследствения дял има право продавачът-наследник, а не купувачът на наследството (по чл. 212 ЗЗД).</p>
+<p>При универсално завещание в полза на две и повече лица, отказът на едно от тях уголемява дяловете на всички останали наследници по закон и завещание. Но когато завещателят посочи едно или повече лица, които да придобият наследството в случай, че наследникът се откаже от него, при т.нар. „обикновена субституция" частта на отказалия се наследник не уголемява дела на останалите наследници, а преминава към указаното в завещанието лице.</p>
+<p>Отказът от наследство не лишава наследниците от правото да получат заветите, които представляват конкретно и реално имущество. Съгласно чл. 22, ал. 1 ЗН, наследникът по закон или по завещание има право да получи завета, който му е направен, дори и когато се откаже от наследството, тъй като заветът създава само частно правоприемство в полза на заветника. И това може да стане както изрично, така и мълчаливо.</p>
+<h3 id="_11">Наследствена трансмисия.</h3>
+<p>Когато преди да упражни правото си за приемане на наследството или преди да се е отказал от него, наследникът почине, тогава неговото право, ако не е погасено, може да бъде упражнено от наследниците му. Последните могат да приемат или да се откажат от наследството. Това преминаване на правото за приемане или отказ от наследство се нарича наследствена трансмисия. Това е така, защото правото да се приеме или откаже едно наследство е имуществено право и следователно то също може да бъде наследено.</p>
+<p>Ако наследникът, преди да е приел наследството или преди да се е отказал от него, почине, всеки от неговите наследници може да приеме това наследство, само ако приеме и наследството на своя наследодател. Но той може да се откаже от това наследство, макар и да е приел наследството на своя наследодател (чл. 57 ЗН). Например наследникът Б не може да се откаже от наследството на бащата А, който е починал след дядото X, а да приеме наследството на дядото, защото правото да се приеме това наследство той има, само доколкото е наследник на своя баща. Но същият може да се откаже от наследството на дядото X, макар и да е приел наследството на бащата А. Др пример – майка и баща и 2 деца – умира бащата и преди да приеме/откаже наследството умира и едното дете – неговото право да приеме/откаже наследството преминава върху майката, стига да приеме наследството на своето дете., </p>
+<p>При едновременна смърт на наследодател и наследник наследствената трансмисия е недопустима. В този случай се прилага разпоредбата на чл.10а ЗН – приема се,че по-възрастният е починал преди по-младия.</p>
+<h3 id="_12">Съпоставка между право на заместване и наследствена трансмисия:</h3>
+<p>Спрямо момента на откриване на наследството: Разликата се състои в това, че правото на заместване е право на наследника на едно лице, което е умряло преди откриване на наследството или е недостойно да наследява, да встъпва в правата, които това лице е имало, а наследствена трансмисия има, когато призованият да наследява умре след откриване на наследството, но преди да е изявил волята си относно приемането на наследството.</p>
+<p>Субекти: Наследяването по право на заместване е допустимо само за лицата, посочени в чл. 10, ал. 1 и 2 ЗН – низходящите и братя и сестри, т.е. прилага се за 1ви и 3ти ред (преживелият съпруг не наследява) – те имат самостоятелно право, а по трансмисия наследяват всички наследници, указани в чл. 5-9 ЗН – правото им е обвързано от това дали ще приемат наследството на своя пряк наследодател. </p>
+<p>Приложно поле: Правото на заместване се прилага само при наследяване по закон. Наследствената трансмисия е възможна както при наследяване по закон, така и при наследяване по завещание.</p>
+<p>При наследяване по трансмисия правото за приемане или отказ от наследство може да бъде упражнено от наследниците на починалия на общо основание и в срока по чл. 51 ЗН.</p>
+<p>Институтът на наследствената трансмисия (чл. 57 ЗН) е неприложим при непълното осиновяване (арг. чл. 5, ал. 3 ЗН).</p>
+<h2 id="_13"><strong>Отношения между сънаследниците – наследствена общност.</strong></h2>
+<p>(Само от учебника) Когато наследството се приеме от повече от едно лице – между сънаследниците възниква съсобственост (случайна, защото възниква от юридическо събитие-смърт). Всеки един от наследниците участва със съответна идеална (дробна) част в наследствената общност.</p>
+<p>Извън наследствената общност остават делимите наследствени задължения и вземания, които се разделят по право между наследниците.</p>
+<p>Във връзка с управлението, ползването, нововъведенията и пр. в общността, между наследниците възникват правоотношения, които поначало се уреждат по общите правила на съсобствеността – титляри на правото на собственост са наследниците (чл. 32, ал. 2 ЗС).</p>
+<p>Имотите в общността се използват и управляват, съгласно решението на съсобствениците, които притежават повече от половината от общите вещи. Ако не може да се образува такова мнозинство или то е вредно за общността, районният съдия, по искане на който и да е от сънаследниците, взема необходимите мерки и ако е нужно, може да назначи управител на общия имот (чл. 32 ЗС).</p>
+<p>Ползите и тежестите на общността се разпределят между участващите в нея, съразмерно с техния дял (чл. 30 ЗС). Всеки от наследниците може да си служи с общото имущество, съобразно неговото предназначение и по начин да не пречи на другите сънаследници да упражняват своите права. Разноските, необходими за запазване и използване на общността, са в тежест на всички наследници, съразмерно с дяловете си, респ. съобразно ползването на вещите.</p>
+<p>Сънаследниците могат да разпределят наследствените имоти помежду си временно за ползване. Това временно разпределение не прекратява общността, а урежда само ползването на общия имот. Когато общността или част от нея се използва лично от някои наследници, те дължат обезщетение на останалите за ползата, от която са ги лишили. Това обезщетение се дължи само от деня на писменото поискване, съгласно чл. 31, ал. 2 ЗС. Под „лично ползване" се разбира служенето със съсобствения имот за задоволяване на личните на съделителя и на семейството му нужди.</p>
+<p>Когато наследникът събира доходи от наследствения имот, той е длъжен да заплати на останалите наследници съответната на техния дял част от събраните доходи и без да му е била отправена писмена покана за това. Това е така, защото съгласно чл. 93 ЗС, добивите от вещта, като плодове, наеми и други, принадлежат на собствениците на същата от момента, в който те са събрани.</p>
+<p>Наследникът, който е извършил подобренията, може да иска от другите наследници сумата, която се припада на техните дялове, за направените разходи, защото чрез подобренията се увеличава стойността на насл.маса.</p>
+<p>Когато подобренията са извършени със съгласието на останалите съсобственици, правоотношенията между тях се уреждат по реда на чл. 30, ал. 2 ЗС, а когато те са извършени без съгласието на другите съсобственици - съобразно правилата за водене на чужда работа без пълномощие (чл. 60-62 ЗЗД). В случаите, когато съсобствениците са се противопоставили на извършването на подобренията, спорът следва да се разреши, съобразно правилата за неоснователното обогатяване.</p>
+<p>Когато съсобственикът упражнява фактическата власт върху съсобствения имот изключително за себе си, той не е държател на идеалните части на останалите съсобственици, а техен владелец. В този случай отношенията между съсобствениците следва да се уредят, съобразно чл. 72 и чл. 74 ЗС.</p>
+<p>Разпореждания с наследственото имущество. С приемане на наследството наследниците стават собственици на наследственото имущество и те могат да се разпореждат с него. Докато общността не е прекратена, всеки наследник може да извърши разпореждане със своята идеална част от цялото наследство.</p>
+<p>Законът допуска също наследникът да извърши „продажба на наследството изцяло, без да посочи неговите предмети" (чл. 212, ал. 1). С тази продажба наследникът прехвърля не отделни вещи, а една съвкупност от права и задължения - всичко, което е получил в наследство. Поради това наследникът трябва да обезпечи на купувача цялостния състав на наследството към момента на откриването му. Ако преди продажбата на наследството продавачът е събрал някое вземане или е отчуждил някои предмети, той е длъжен на върне на купувача полученото. Договорът за прехвърляне на наследството, макар и в последното да има недвижими имоти, се извършва писмено и подписите на договорящите трябва да бъдат нотариално заверени.</p>
+<p>Според ВКС наследниците не могат да искат да изкупят дела на наследник, който иска да го продаде, като се позовават на чл. 33 ЗС. Продажбата на наследство се урежда със специални норми и в тях не се съдържат ограниченията на чл. 33 ЗС.</p>
+<p>Докато съществува общността, извършените от някои от наследниците актове на разпореждане с реално определени наследствени предмети поначало са недействителни. Тези актове обаче могат да придобият сила, ако при делбата на наследствената общност въпросните предмети се паднат в дял на същия наследник (чл. 76 ЗН).</p>
+<p>Наследниците могат да искат прекратяване на общността. Това става чрез делба на наследството. Но преди да се пристъпи към делба, съгласно чл. 70 ЗН, всеки сънаследник трябва да привнесе в наследството това, което дължи на наследодателя, а също и това, което дължи на другите сънаследници във връзка със собствеността между тях. Ако той не извърши привнасянето в натура, сънаследниците, които имат право да го искат, получават в своя дял част от наследственото имущество, равна на дължимото по стойност, а ако е възможно – и по вид. Всъщност, на практика такова привнасяне не се прави. При спор между наследниците въпросните отношения се уреждат при делбата.</p>
+<h2 id="_14"><strong>Отношения между сънаследниците и трети лица. Отговорност за задълженията и заветите.</strong></h2>
+<p>С приемане на наследството върху наследниците преминава и пасивът – дълговете на наследодателя и задължението за изпълнение на заветите. Всеки един от наследниците отговаря за задълженията, с които е обременено наследството, съобразно дела, който получава – чл. 60, ал. 1 ЗН. Кредиторите на наследодателя могат да преследват наследниците за техните части както преди извършване на делбата между тях, така и след нея. Отговорността е ограничена при приемане по опис – до размера на полученото.</p>
+<p>Законът предвижда ограничена отговорност и в случая на чл. 55 ЗН. Когато след приемане на наследството се открие завещание, което не е било, известно, наследникът не е длъжен да удовлетвори заветите по него извън стойността на наследството или ако те накърняват неговата запазена част. И в този случай той отговаря до размера на полученото наследство. Това е така, защото ако знае, когато приема наследството, че то е обременено с толкова завети, може да се откаже от него.</p>
+<p>Тук се включва казаното за отговорността на наследника при приемане на наследство по опис и чл. 66 ЗН „(1) Когато наследството е прието по опис, всеки кредитор или заветник може да поиска районният съдия да определи реда и начина, по който наследникът ще плаща на кредиторите и заветниците. В случай че това не е направено, наследникът, който е приел наследството по опис, плаща на кредиторите и заветниците по реда, по който те предявяват пред него правата си. (2) Кредиторите, които предявяват правата си, след като активът на наследството е изчерпан, имат обратен иск срещу заветниците. Искът трябва да бъде предявен в срок от три години от последното плащане“. Заветникът отговаря по този иск само до размера на получения завет. Когато има няколко завета, всеки от заветниците отговаря за част, съответна на получения завет.</p>
+<p>Наследник освен към кредиторите на наследството, отговаря и към своите лични кредитори. Кредиторите на наследодателя имат спрямо другите кредиторите привилегия и тя е необходима, защото с приемане на наследството направо имаме сливане на две имуществени маси. Чл. 67 създава законно основание за предпочитане в полза на кредиторите на наследството пред личните кредитори на наследника – отделяне на наследството, т.е. ще преодолеят сливането „Кредиторите на наследството и заветниците могат в тримесечен срок от приемането му да искат отделяне на имуществото на наследодателя от имуществото на наследника. (2) Това отделяне се извършва за недвижимите имоти чрез вписване в партидите на недвижимите имоти на наследодателя по реда на Закона за кадастъра и имотния регистър, а за движимостите - чрез молба до районния съдия, която се вписва по реда на чл. 49, ал. 1“, т.е. в книгата. Срокът за предявяване на иска е преклузивен. Освен това кредиторите, поискали отделянето, се предпочитат пред непоискалите. А когато имаме поискали заветници и поискали кредитори – предпочитат се поискалите кредитори (ал. 3).</p>
+<p>Делимите задължения се разпределят по право между сънаследниците, съразмерно с техните наследствени дялове, и от всеки може да се иска само част от задължението, която отговаря на дела му.</p>
+<p>Когато задължението е неделимо, такова разделяне е невъзможно. Всеки сънаследник отговаря за цялостното му изпълнение. Що се отнася до солидарното задължение, което починалият е поел съвместно с други лица, то се разделя между наследниците така, че всеки от тях отговаря солидарно със съдлъжниците на наследодателя за част от дълга, съразмерна на наследствения му дял. Например, ако наследодателят А има дълг за 10 000 лв., по който отговаря солидарно с Б, всеки от наследниците му В и Г, които получават равни части от наследството, е солидарно отговорен с Б само за своята наследствена част - В за 5000 лв. солидарно с Б, и Г - за 5000 лв. Също солидарно с Б.</p>
+                
+              
+              
+                
+<script src="https://utteranc.es/client.js"
+        repo="LexsTech/LexsWiki"
+        issue-term="title"
+        label="Предложение за промяна"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Долен колонтитул">
+      
+        
+        <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2053/" class="md-footer__link md-footer__link--prev" aria-label="Предишна: **Родителски права и задължения. Съдържание. Закрила на детето. Представителство и попечителско съдействие. Ограничаване и лишаване от родителски права.**" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Предишна
+              </span>
+              **Родителски права и задължения. Съдържание. Закрила на детето. Представителство и попечителско съдействие. Ограничаване и лишаване от родителски права.**
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../%D0%A2%D0%B5%D0%BC%D0%B0%2055/" class="md-footer__link md-footer__link--next" aria-label="Следваща: **Наследяване по закон. Кръг на наследниците. Ред за наследяване. Основни правила за наследяване по закон.**" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Следваща
+              </span>
+              **Наследяване по закон. Кръг на наследниците. Ред за наследяване. Основни правила за наследяване по закон.**
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Orenda
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "translations": {"clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u0430\u0439", "clipboard.copied": "\u041a\u043e\u043f\u0438\u0440\u0430\u043d\u043e", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u0422\u044a\u0440\u0441\u0438", "search.result.placeholder": "\u0417\u0430\u043f\u043e\u0447\u043d\u0435\u0442\u0435 \u0434\u0430 \u043f\u0438\u0448\u0435\u0442\u0435, \u0437\u0430 \u0434\u0430 \u0442\u044a\u0440\u0441\u0438\u0442\u0435", "search.result.none": "\u041d\u044f\u043c\u0430 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0438", "search.result.one": "1 \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442", "search.result.other": "# \u0440\u0435\u0437\u0443\u043b\u0442\u0430\u0442\u0430", "search.result.more.one": "\u043e\u0449\u0435 1 \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.more.other": "\u043e\u0449\u0435 # \u043d\u0430 \u0442\u0430\u0437\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.2b46852b.min.js"></script>
+      
+        <script src="../../javascripts/green-audio-player.js"></script>
+      
+        <script src="../../javascripts/player.js"></script>
+      
+    
+  </body>
+</html>
